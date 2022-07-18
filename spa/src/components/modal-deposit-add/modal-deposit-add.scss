@@ -1,0 +1,200 @@
+@import "../app/global.scss";
+
+.modal-deposit-add {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 271px;
+  padding: 44px 61px;
+  width: 472px;
+  height: 514px;
+  margin: 0 auto;
+  background: #ffffff;
+  border: 1px solid #ebebeb;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  .modal-deposit-add-container {
+    width: 100%;
+    .modal-deposit-add-title h1 {
+      margin-bottom: 15px;
+      text-align: center;
+      font-family: $font-name-second, sans-serif;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 47px;
+      color: $black-color;
+    }
+    fieldset {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      &:last-of-type {
+        border-bottom: none;
+      }
+      label {
+        display: block;
+        width: 100%;
+        font-family: $font-name-second, sans-serif;
+        color: $light-gray-color;
+      }
+      input {
+        margin-top: 7px;
+        padding-left: 10px;
+        padding-right: 30px;
+        padding-bottom: 9px;
+        font-family: $font-name-main, sans-serif;
+        font-size: 14px;
+        line-height: 14px;
+        font-weight: 500;
+        color: $black-color;
+        border: 0;
+        border-bottom: 1px solid $light-gray-color;
+        &::placeholder {
+          font-size: 14px;
+          color: $black-color;
+        }
+        &::-webkit-outer-spin-button,
+        &::-webkit-inner-spin-button {
+          -webkit-appearance: none;
+          margin: 0;
+        }
+      }
+      .pseudo-placeholder {
+        position: absolute;
+        right: 0;
+        bottom: 9px;
+        font-size: 14px;
+        color: $light-gray-color;
+      }
+      .currency-options {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 30px;
+        padding-left: 40px;
+        color: $black-color;
+        .balance-amount {
+          color: $black-color;
+          font-size: 14px;
+        }
+        .currency-name {
+          font-size: 14px;
+          color: $light-gray-color;
+        }
+      }
+      .usd {
+        background-image: url(../../assets/icons/dollar-circle.svg);
+        background-repeat: no-repeat;
+        background-size: 30px;
+        background-position: center left;
+      }
+      .euro {
+        background-image: url(../../assets/icons/euro.svg);
+        background-repeat: no-repeat;
+        background-size: 30px;
+        background-position: center left;
+      }
+      .system-options {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 30px;
+        padding-left: 40px;
+        color: $black-color;
+        p {
+          color: $light-gray-color;
+        }
+        span,
+        p {
+          font-size: 14px;
+        }
+      }
+      .visa {
+        background-image: url(../../assets/icons/visa-master.svg);
+        background-repeat: no-repeat;
+        background-size: 30px;
+        background-position: center left;
+      }
+      .master {
+        background-image: url(../../assets/icons/visa-master.svg);
+        background-repeat: no-repeat;
+        background-size: 30px;
+        background-position: center left;
+      }
+    }
+    .currency-amount {
+      margin-bottom: 15px;
+      input {
+        height: 20px;
+        margin-top: 0;
+      }
+    }
+    .total {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      height: 45px;
+      margin-bottom: 50px;
+      label {
+        flex: 0 0 100%;
+      }
+      input {
+        width: 207px;
+      }
+      .chosen-currency {
+        width: 57px;
+      }
+    }
+  }
+  .close-modal {
+    position: absolute;
+    top: -50px;
+    right: -50px;
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+    border: none;
+    font-size: 25px;
+    line-height: 25px;
+    color: $gray-color;
+  }
+}
+
+@media (max-width: 768px) {
+  .ReactModal__Content--after-open {
+    margin: 25% 20%;
+  }
+}
+
+@media (max-width: 650px) {
+  .ReactModal__Content--after-open {
+    margin: 35% 13%;
+    .modal-deposit-add {
+      max-width: 100%;
+      .close-modal {
+        right: 0;
+        top: 0;
+        box-shadow: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .ReactModal__Content--after-open {
+    max-width: 100%;
+    margin: 45% 0;
+  }
+  .modal-deposit-add {
+    padding: 44px 30px;
+    .modal-deposit-add-container .total input {
+      width: 50%;
+    }
+  }
+}

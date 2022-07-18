@@ -1,0 +1,259 @@
+@import "../app/global.scss";
+
+.main .main-container .main-content .title {
+  margin-bottom: 40px;
+}
+
+.funds {
+  margin: 40px auto;
+  .funds-container {
+    max-width: 810px;
+    display: flex;
+    height: 100%;
+    padding: 45px 60px;
+    margin: 0 auto 40px auto;
+    background: #ffffff;
+    border: 1px solid #ebebeb;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    .funds-form {
+      display: flex;
+      flex-direction: column;
+      margin-right: 35px;
+      fieldset {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 25px;
+        &:last-of-type {
+          border-bottom: none;
+          margin-bottom: 38px;
+        }
+        label {
+          display: block;
+          width: 100%;
+          margin-bottom: 5px;
+          font-size: 16px;
+          font-family: $font-name-second, sans-serif;
+          color: $light-gray-color;
+        }
+        input {
+          padding: 7px 0 7px 10px;
+          font-family: $font-name-main, sans-serif;
+          font-size: 14px;
+          line-height: 14px;
+          font-weight: 500;
+          color: $black-color;
+          border: 0;
+          border-bottom: 1px solid $light-gray-color;
+          &::placeholder {
+            font-size: 14px;
+            color: $black-color;
+          }
+          &::-webkit-outer-spin-button,
+          &::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+          }
+        }
+        .pseudo-placeholder {
+          position: absolute;
+          right: 0;
+          bottom: 9px;
+          font-size: 14px;
+          color: $light-gray-color;
+        }
+        .account-options {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          height: 30px;
+          padding-left: 40px;
+          color: $black-color;
+          .balance-amount {
+            color: $black-color;
+            font-size: 14px;
+          }
+          .account-name {
+            font-size: 14px;
+            color: $light-gray-color;
+          }
+        }
+        .usd {
+          background-image: url(../../assets/icons/dollar-circle.svg);
+          background-repeat: no-repeat;
+          background-size: 30px;
+          background-position: center left;
+        }
+        .euro {
+          background-image: url(../../assets/icons/euro.svg);
+          background-repeat: no-repeat;
+          background-size: 30px;
+          background-position: center left;
+        }
+        .system-options {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          height: 30px;
+          padding-left: 40px;
+          color: $black-color;
+          p {
+            color: $light-gray-color;
+          }
+          span,
+          p {
+            font-size: 14px;
+          }
+        }
+        .visa {
+          background-image: url(../../assets/icons/visa-master.svg);
+          background-repeat: no-repeat;
+          background-size: 30px;
+          background-position: center left;
+        }
+        .master {
+          background-image: url(../../assets/icons/visa-master.svg);
+          background-repeat: no-repeat;
+          background-size: 30px;
+          background-position: center left;
+        }
+        .bitcoin {
+          background-image: url(../../assets/icons/bitcoin-circle-orange.svg);
+          background-repeat: no-repeat;
+          background-size: 30px;
+          background-position: center left;
+        }
+      }
+      .account-amount {
+        label {
+          margin-bottom: 0;
+        }
+      }
+      .total {
+        label {
+          flex: 0 0 100%;
+          margin-bottom: 0;
+        }
+        input {
+          width: 207px;
+          padding-top: 0;
+          padding-bottom: 4px;
+        }
+        .chosen-account {
+          width: 57px;
+        }
+        .total-group {
+          display: flex;
+          justify-content: space-between;
+          .chosen-account {
+            margin-left: 45px;
+          }
+        }
+      }
+    }
+    .funds-form-info-container {
+      padding: 25px 0;
+      .funds-form-info {
+        display: flex;
+        flex-direction: column;
+        padding-left: 37px;
+        border-left: 1px solid $light-gray-color;
+        h3 {
+          margin-bottom: 20px;
+          font-family: $font-name-second, sans-serif;
+          font-weight: 400;
+          font-size: 20px;
+          color: $black-color;
+        }
+        .max-per-one,
+        .comimission {
+          margin-bottom: 30px;
+          font-family: $font-name-main, sans-serif;
+          span {
+            font-size: 14px;
+            color: $black-color;
+          }
+          p {
+            margin-top: 4px;
+            color: $light-gray-color;
+            font-size: 14px;
+          }
+        }
+        .additional-info {
+          p {
+            font-family: $font-name-main, sans-serif;
+            font-size: 14px;
+            color: $black-color;
+          }
+        }
+      }
+    }
+  }
+  .close-modal {
+    position: absolute;
+    top: -50px;
+    right: -50px;
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+    border: none;
+    font-size: 25px;
+    line-height: 25px;
+    color: $gray-color;
+  }
+}
+
+@media (max-width: 980px) {
+  .funds {
+    .funds-container {
+      flex-direction: column;
+      height: auto;
+      .funds-form-info-container {
+        order: 0;
+        padding-top: 0;
+        .funds-form-info {
+          border-left: 0;
+          padding-left: 0;
+        }
+      }
+      .funds-form {
+        order: 1;
+        margin-right: 0;
+        min-width: 45%;
+        .total {
+          input {
+            width: 45%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  .funds {
+    padding: 0;
+    margin-bottom: 40px;
+    .funds-container {
+      padding: 35px 25px;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .funds {
+    height: auto;
+    margin-top: 30px;
+    .funds-container .total {
+      height: auto;
+      input {
+        width: 40%;
+      }
+    }
+  }
+}

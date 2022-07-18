@@ -1,0 +1,101 @@
+@import "../app/global.scss";
+
+.funds-confirm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 72px 36px 52px 36px;
+  width: 472px;
+  height: 514px;
+  margin: 40px auto;
+  background: #ffffff;
+  border: 1px solid #ebebeb;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  .funds-confirm-container {
+    width: 100%;
+    fieldset {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 18px;
+      padding: 0 10px;
+      border-bottom: 1px solid $light-gray-color;
+      label {
+        font-family: $font-name-second, sans-serif;
+        font-size: 16px;
+        line-height: 21px;
+        color: $light-gray-color;
+      }
+      input {
+        width: 80%;
+        padding-bottom: 5px;
+        font-family: $font-name-main, sans-serif;
+        font-size: 14px;
+        line-height: 14px;
+        font-weight: 500;
+        color: $black-color;
+        text-align: right;
+        border: none;
+      }
+    }
+    .total {
+      margin-bottom: 42px;
+      font-weight: 500;
+      font-size: 14px;
+      text-align: right;
+    }
+
+    .go-back {
+      display: flex;
+      justify-content: center;
+      margin-top: 16px;
+      text-decoration: underline;
+      color: $accent-color;
+      font-size: 14px;
+    }
+  }
+  .close-modal {
+    position: absolute;
+    top: -60px;
+    right: -60px;
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+    border: none;
+    font-size: 25px;
+    line-height: 25px;
+    color: $gray-color;
+  }
+}
+
+@media (max-width: 780px) {
+  .funds-confirm {
+    width: auto;
+    margin-bottom: 40px;
+    label {
+      flex: 0 0 100px;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .funds-confirm {
+    height: auto;
+    margin-top: 30px;
+    .funds-confirm-container .total {
+      height: auto;
+      input {
+        width: 40%;
+      }
+    }
+  }
+}
+
+@media (max-width: 374px) {
+  .funds-confirm {
+    padding: 45px 25px;
+  }
+}

@@ -1,0 +1,107 @@
+@import "../app/global.scss";
+
+.modal-add-wallet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 271px;
+  padding: 44px 61px;
+  width: 472px;
+  height: auto;
+  margin: 0 auto;
+  background: #ffffff;
+  border: 1px solid #ebebeb;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  .modal-add-wallet-container {
+    width: 100%;
+    .modal-add-wallet-title h1 {
+      margin-bottom: 25px;
+      text-align: center;
+      font-family: $font-name-second, sans-serif;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 47px;
+      color: $black-color;
+    }
+    fieldset {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-bottom: 25px;
+      &:last-of-type {
+        border-bottom: none;
+      }
+      label {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+        font-family: $font-name-second, sans-serif;
+        color: $light-gray-color;
+      }
+      input {
+        margin-top: 7px;
+        padding-left: 10px;
+        padding-right: 30px;
+        padding-bottom: 9px;
+        font-family: $font-name-main, sans-serif;
+        font-size: 14px;
+        line-height: 14px;
+        font-weight: 500;
+        color: $black-color;
+        border: 0;
+        border-bottom: 1px solid $light-gray-color;
+      }
+    }
+  }
+  .close-modal {
+    position: absolute;
+    top: -50px;
+    right: -50px;
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+    border: none;
+    font-size: 25px;
+    line-height: 25px;
+    color: $gray-color;
+  }
+}
+
+@media (max-width: 768px) {
+  .ReactModal__Content--after-open {
+    margin: 25% 20%;
+  }
+}
+
+@media (max-width: 650px) {
+  .ReactModal__Content--after-open {
+    margin: 35% 13%;
+    .modal-add-wallet {
+      max-width: 100%;
+      .close-modal {
+        right: 0;
+        top: 0;
+        box-shadow: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .ReactModal__Content--after-open {
+    max-width: 100%;
+    margin: 45% 0;
+  }
+  .modal-add-wallet {
+    padding: 44px 30px;
+    .modal-add-wallet-container .total input {
+      width: 50%;
+    }
+  }
+}

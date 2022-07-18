@@ -1,0 +1,400 @@
+@media (max-width: 1023px) {
+  .main .main-container .main-content {
+    flex-basis: 100%;
+    .balance-content {
+      justify-content: flex-start;
+    }
+    .wallet-preferences-filter {
+      width: 100%;
+      margin: 0 auto;
+      ul {
+        flex-direction: column;
+        max-width: none;
+        li a {
+          text-align: center;
+        }
+      }
+    }
+    .profile {
+      .profile-form.container {
+        padding: 0;
+        .profile-form {
+          #personalization-form {
+            justify-content: center;
+            fieldset {
+              flex: 1 1 100%;
+              label {
+                margin-left: 0;
+              }
+              input {
+                margin: 0 0 30px 0;
+              }
+              select {
+                margin: 0 0 30px 0;
+              }
+            }
+          }
+        }
+      }
+    }
+    .main-content-preferences {
+      .change-pwd,
+      .alogout,
+      .clhandling,
+      .balance-currency {
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 45px;
+        padding-left: 0;
+        fieldset {
+          align-items: center;
+          &:nth-child(2) {
+            margin-left: 0;
+          }
+          select {
+            margin: 10px auto 30px auto;
+          }
+          input {
+            margin: 0 auto;
+          }
+        }
+        .form-submition {
+          margin-left: 0;
+          padding-bottom: 0;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .lock {
+    overflow: hidden;
+  }
+  .header {
+    .container {
+      .header-actions {
+        .account-button {
+          &:after {
+            right: -20px;
+          }
+          .user-info {
+            margin: 0 20px;
+            &:before {
+              display: none;
+            }
+          }
+        }
+        .language-switcher::before {
+          display: none;
+        }
+        .langMenu {
+          .flag {
+            margin-right: 0;
+          }
+        }
+        .langMenu {
+          max-width: 0;
+          min-width: 80px;
+          .info {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  .main {
+    .main-container {
+      .sidebar {
+        top: auto;
+        &.hidden {
+          left: -105%;
+          width: 250px;
+        }
+        .sidebar-menu {
+          a {
+            font-size: 16px;
+          }
+        }
+        #sidebar-btn {
+          left: 237px;
+          transform: none;
+        }
+      }
+      .main-content {
+        .main-content.title {
+          h1 {
+            margin-bottom: 0;
+            line-height: 1;
+          }
+          button {
+            display: none;
+          }
+        }
+        .balance-content {
+          justify-content: center;
+          margin-top: 40px;
+          .balance-card {
+            margin-right: 0;
+          }
+        }
+        .main-content.profile {
+          .profile-form.container {
+            padding: 0;
+            .profile-form {
+              form {
+                fieldset {
+                  flex: 1 1 100%;
+                  label {
+                    margin-left: 0;
+                  }
+                  input {
+                    margin: 0 0 30px 0;
+                  }
+                  select {
+                    margin: 0 0 30px 0;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .main-content-preferences {
+          .preferences.container {
+            max-width: 100%;
+            padding-right: 3px;
+            padding-left: 3px;
+            padding-bottom: 75px;
+            .change-pwd,
+            .alogout,
+            .clhandling {
+              flex-direction: column;
+              justify-content: center;
+              padding-bottom: 45px;
+              padding-left: 0;
+              fieldset {
+                max-width: 80%;
+                margin-left: 0;
+                &:nth-child(2) {
+                  margin-left: 0;
+                }
+                label {
+                  text-align: center;
+                }
+              }
+            }
+            button {
+              margin-left: 0px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  .header {
+    .container {
+      flex-direction: column;
+      align-items: flex-start;
+      .header-logo {
+        min-width: 100%;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #ccc;
+        a {
+          display: inline-flex;
+        }
+      }
+      .header-actions {
+        justify-content: space-between;
+        min-width: 100%;
+        padding-top: 15px;
+        align-items: center;
+        .account-button {
+          flex: auto;
+          &:after {
+            display: none;
+          }
+          .user-info {
+            margin: 0 20px;
+            justify-content: flex-start;
+            .info {
+              .user-name {
+                overflow: hidden;
+                &:after {
+                  display: none;
+                }
+              }
+            }
+            .avatar {
+              margin-right: 10px;
+            }
+          }
+        }
+        .account-menu {
+          top: 40px !important;
+        }
+        .language-button {
+          .language-switcher {
+            .info {
+              display: none;
+            }
+          }
+        }
+        .langMenu {
+          top: 40px !important;
+        }
+      }
+    }
+  }
+
+  .main {
+    padding-top: 141px;
+    .main-container {
+      max-width: none !important;
+      padding: 0 20px;
+      .sidebar {
+        // left: -100%;
+        &.hidden {
+          left: -100%;
+          top: 141px;
+          ul li a {
+            font-size: 20px;
+          }
+        }
+      }
+      .main-content {
+        padding: 0;
+        // overflow: scroll;
+        .wallet-preferences-filter ul {
+          max-width: 390px;
+          padding: 15px;
+          margin: 0 auto;
+          li {
+            padding: 0 15px;
+          }
+        }
+        .balance-content {
+          .balance-card {
+            &:nth-child(3n + 3) {
+              margin-right: 0;
+            }
+            .balance-amount {
+              .currency-contraction {
+                margin-left: 3px;
+              }
+              .balance {
+                font-size: 32px;
+              }
+            }
+          }
+        }
+        .profile {
+          padding: 0;
+        }
+        .main-content-preferences {
+          .change-pwd,
+          .alogout,
+          .clhandling,
+          .balance-currency {
+            flex-direction: column;
+            justify-content: center;
+            padding-bottom: 45px;
+            padding-left: 0;
+            fieldset {
+              &:last-of-type {
+                margin-left: 0;
+              }
+              label {
+                text-align: center;
+              }
+            }
+            input {
+              width: auto;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .header {
+    .container {
+      .header-logo {
+        a svg {
+          max-width: none;
+        }
+      }
+      .header-actions {
+        flex: 1 0 auto;
+        .account-menu {
+          top: 72px;
+          right: 0;
+        }
+        .user-info {
+          margin-right: 0;
+          .info {
+            margin-right: 0px;
+            &:after {
+              bottom: 2px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 370px) {
+  .header {
+    .container {
+      .header-logo {
+        a {
+          height: 100%;
+        }
+      }
+      .header-actions {
+        .account-button {
+          flex: 1 0 auto;
+          .user-info {
+            justify-content: flex-start;
+            .avatar {
+              display: none;
+              margin-right: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .main {
+    .main-container {
+      .main-content {
+        .main-content-notifications {
+          .notifications.container {
+            padding-left: 10px;
+            padding-right: 10px;
+            .notifications-table {
+              .table {
+                tbody tr td {
+                  padding: 11px;
+                }
+              }
+            }
+          }
+        }
+      }
+      .sidebar.hidden {
+        top: 139px;
+      }
+    }
+  }
+}

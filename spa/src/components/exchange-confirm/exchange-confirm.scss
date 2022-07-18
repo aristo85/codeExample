@@ -1,0 +1,125 @@
+@import "../app/global.scss";
+
+.exchange-confirm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 271px;
+  padding: 72px 36px 59px 36px;
+  width: 472px;
+  height: 514px;
+  margin: 40px auto;
+  background: #ffffff;
+  border: 1px solid #ebebeb;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  .exchange-confirm-container {
+    width: 100%;
+    h2 {
+      margin-bottom: 38px;
+      text-align: center;
+      font-size: 32px;
+      line-height: 39px;
+      font-weight: 500;
+    }
+    fieldset {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      padding: 0 10px;
+      border-bottom: 1px solid $light-gray-color;
+      &:last-of-type {
+        margin-bottom: 18px;
+      }
+      label {
+        font-family: $font-name-second, sans-serif;
+        font-size: 16px;
+        line-height: 21px;
+        color: $light-gray-color;
+      }
+      input {
+        width: 80%;
+        padding-bottom: 5px;
+        font-family: $font-name-main, sans-serif;
+        font-size: 14px;
+        line-height: 14px;
+        font-weight: 500;
+        color: $black-color;
+        text-align: right;
+        border: none;
+      }
+      .comments {
+        padding-bottom: 15px;
+        font-family: $font-name-main, sans-serif;
+        font-size: 14px;
+        line-height: 14px;
+        font-weight: 500;
+        color: $black-color;
+        text-align: right;
+      }
+    }
+
+    .total {
+      margin-bottom: 34px;
+      font-weight: 500;
+      font-size: 14px;
+      text-align: right;
+    }
+
+    .go-back {
+      display: flex;
+      justify-content: center;
+      margin-top: 16px;
+      text-decoration: underline;
+      color: $accent-color;
+      font-size: 14px;
+      font-weight: 500;
+    }
+  }
+}
+
+@media (max-width: 780px) {
+  .exchange-confirm {
+    width: auto;
+    margin: 40px auto;
+    label {
+      flex: 0 0 100px;
+    }
+    .two-step-verification-form {
+      margin: 0;
+      h2 {
+        margin-bottom: 18px;
+      }
+      .two-step-verification {
+        border: 0;
+        label {
+          max-height: 40px;
+        }
+        input {
+          border-bottom: 1px solid $light-gray-color;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .exchange-confirm {
+    height: auto;
+    margin-top: 30px;
+    .exchange-confirm-container .total {
+      height: auto;
+      input {
+        width: 40%;
+      }
+    }
+  }
+}
+
+@media (max-width: 374px) {
+  .exchange-confirm {
+    padding: 45px 25px;
+  }
+}

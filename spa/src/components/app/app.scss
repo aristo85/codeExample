@@ -1,0 +1,91 @@
+@mixin font($font_name, $file_name, $weight, $style) {
+  @font-face {
+    font-family: $font_name;
+    font-display: swap;
+    src: url('../../fonts/#{$file_name}.ttf') format('ttf'),
+      url('../../fonts/#{$file_name}.woff2') format('woff2');
+    font-weight: #{$weight};
+    font-style: #{$style};
+  }
+}
+
+@import 'global';
+@import 'fonts';
+@import 'reset';
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  height: 100%;
+  font-family: 'FuturaPT', sans-serif;
+  background-color: #ffffff;
+  &.hidden {
+    overflow: hidden;
+  }
+}
+
+[data-js-focus-visible] :focus:not([data-focus-visible-added]) {
+  outline: none;
+}
+
+:focus {
+  outline: 3px solid $black-color;
+  outline-offset: 2px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  margin: auto;
+  padding: 0 40px;
+}
+
+.main {
+  padding-top: 70px;
+  .main-container {
+    display: flex;
+    margin-left: auto;
+    max-width: calc(100% - 251px);
+    flex-basis: calc(100% - 251px);
+    @extend %transition;
+    .burger {
+      display: none;
+    }
+    .main-content {
+      width: calc(100% - 100px);
+      flex-basis: 100%;
+      padding-left: 40px;
+      padding-right: 40px;
+      margin-bottom: 40px;
+    }
+  }
+
+  span.ripple {
+    position: absolute;
+    border-radius: 50%;
+    transform: scale(0);
+    animation: ripple 500ms ease-in-out;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  @keyframes ripple {
+    to {
+      transform: scale(4);
+      opacity: 0;
+    }
+  }
+}
+
+@media (max-width: 960px) {
+  .main {
+    padding-top: 141px;
+    padding-bottom: 40px;
+  }
+}
+
+@import 'media';

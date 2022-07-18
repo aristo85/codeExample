@@ -1,0 +1,110 @@
+@import "../app/global.scss";
+
+.modal-deposit-confirm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 271px;
+  padding: 44px 36px 59px 36px;
+  width: 472px;
+  height: 514px;
+  margin: 0 auto;
+  background: #ffffff;
+  border: 1px solid #ebebeb;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  .modal-deposit-confirm-container {
+    width: 100%;
+    .modal-deposit-confirm-title h1 {
+      margin-bottom: 15px;
+      text-align: center;
+      font-family: $font-name-second, sans-serif;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 47px;
+      color: $black-color;
+    }
+    fieldset {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 24px;
+      padding: 0 10px;
+      border-bottom: 1px solid $light-gray-color;
+      label {
+        font-family: $font-name-second, sans-serif;
+        font-size: 16px;
+        line-height: 21px;
+        color: $light-gray-color;
+      }
+      input {
+        width: 80%;
+        padding-bottom: 5px;
+        font-family: $font-name-main, sans-serif;
+        font-size: 14px;
+        line-height: 14px;
+        font-weight: 500;
+        color: $black-color;
+        text-align: right;
+        border: none;
+      }
+    }
+    .total {
+      margin-bottom: 42px;
+      font-weight: 500;
+      font-size: 14px;
+      text-align: right;
+    }
+
+    .go-back {
+      display: flex;
+      justify-content: center;
+      margin-top: 16px;
+      text-decoration: underline;
+      color: $accent-color;
+      font-size: 14px;
+    }
+  }
+  .close-modal {
+    position: absolute;
+    top: -60px;
+    right: -60px;
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+    border: none;
+    font-size: 25px;
+    line-height: 25px;
+    color: $gray-color;
+  }
+}
+
+@media (max-width: 768px) {
+  .ReactModal__Content--after-open {
+    margin: 25% 20%;
+  }
+}
+
+@media (max-width: 650px) {
+  .ReactModal__Content--after-open {
+    margin: 35% 13%;
+    .modal-deposit-confirm {
+      max-width: 100%;
+      .close-modal {
+        right: 0;
+        top: 0;
+        box-shadow: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .ReactModal__Content--after-open {
+    max-width: 100%;
+    margin: 45% 0;
+  }
+}
