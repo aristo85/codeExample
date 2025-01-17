@@ -1,0 +1,144 @@
+{
+    "data": {
+        "id": 53,
+        "status": "WAITING_PARTNER",
+        "bookingNumber": "20230711-8866-12216378",
+        "touristData": {
+            "firstName": "Anton ",
+            "lastName": "Tamarov",
+            "middleName": null,
+            "email": "atamarov@icerockdev.com",
+            "phone": "7777779989",
+            "comments": ""
+        },
+        "placementData": {
+            "partnerData": {
+                "firstName": "Test",
+                "lastName": "Testov",
+                "middleName": null,
+                "email": "mandreev@icerockdev.com",
+                "phone": "72423534345"
+            },
+            "name": "PartnerAPI 12",
+            "images": [
+                "https://partner-static.qatl.ru/images/p/8867/637868518449806595-91c2fa6f-f5a9-493a-95f1-2e49c5fe4904"
+            ],
+            "rating": null,
+            "stayUnitKind": "DailyRate",
+            "city": "Краснодар",
+            "address": "Краснодарский край, Центральный район, г. Краснодар, ул. Митрофана Седина, д. 103, кв. 1",
+            "coordinate": {
+                "lat": 45.029738,
+                "lng": 38.978691
+            },
+            "email": "sedinnsanatorium_test@gmail.com",
+            "phone": "+7 (918) 414-31-03",
+            "roomStays": [
+                {
+                    "stayDates": {
+                        "arrivalDateTime": "2023-06-27T08:00",
+                        "departureDateTime": "2023-06-28T20:00"
+                    },
+                    "ratePlan": {
+                        "id": "361812",
+                        "name": "Тарифный план \" Путевка с лечением\"",
+                        "description": "<p>Выгодное бронирование на прямую</p>",
+                        "vat": null
+                    },
+                    "roomType": {
+                        "id": "357623",
+                        "name": "Четырехместный номер люкс",
+                        "placements": [
+                            {
+                                "code": "AdultBed-1",
+                                "count": 1,
+                                "kind": "Adult",
+                                "minAge": null,
+                                "maxAge": null
+                            }
+                        ]
+                    },
+                    "guests": [
+                        {
+                            "firstName": "Ера",
+                            "lastName": "Ера",
+                            "middleName": null,
+                            "citizenship": null,
+                            "sex": null
+                        }
+                    ],
+                    "guestCount": {
+                        "adultCount": 1,
+                        "childAges": []
+                    },
+                    "checksum": "B5BA4C614270B083C57BF690840F9FD146B10216",
+                    "dailyRates": [
+                        {
+                            "priceBeforeTax": 3120.0,
+                            "date": "2023-06-27"
+                        },
+                        {
+                            "priceBeforeTax": 3120.0,
+                            "date": "2023-06-28"
+                        }
+                    ],
+                    "total": {
+                        "priceBeforeTax": 6240.0,
+                        "taxAmount": 0.0,
+                        "taxes": []
+                    },
+                    "services": [
+                        {
+                            "id": "463062",
+                            "name": "Полный пансион",
+                            "description": "Трехразовое питание",
+                            "totalPrice": null,
+                            "inclusive": true,
+                            "kind": "Meal",
+                            "mealPlanCode": "FullBoard",
+                            "mealPlanName": "Полный пансион",
+                            "vat": null,
+                            "questCount": null,
+                            "chargeType": "PerPersonPerNight"
+                        },
+                        {
+                            "id": "463366",
+                            "name": "Wi-Fi",
+                            "description": "Высокоскоростной интернет позволит Вам быть всегда на связи.",
+                            "totalPrice": null,
+                            "inclusive": true,
+                            "kind": "Common",
+                            "mealPlanCode": null,
+                            "mealPlanName": null,
+                            "vat": null,
+                            "questCount": null,
+                            "chargeType": "PerPersonPerNight"
+                        },
+                        {
+                            "id": "463367",
+                            "name": "Подготовка документов",
+                            "description": "Если Вы в командировке и Вам нужны отчетные документы, обращайтесь к администратору и он с радостью подготовит их.",
+                            "totalPrice": null,
+                            "inclusive": true,
+                            "kind": "Common",
+                            "mealPlanCode": null,
+                            "mealPlanName": null,
+                            "vat": null,
+                            "questCount": null,
+                            "chargeType": "PerPersonPerNight"
+                        }
+                    ]
+                }
+            ]
+        },
+        "cancellationPolicy": {
+            "freeCancellationPossible": false,
+            "freeCancellationDeadlineUtc": null,
+            "penaltyAmount": 3120.0
+        }
+    },
+    "status": 200,
+    "message": "",
+    "timestamp": 1689500352,
+    "success": true
+}

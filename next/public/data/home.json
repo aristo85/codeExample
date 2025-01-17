@@ -1,0 +1,64 @@
+{
+    "mainPageAccomodationData": [
+        {
+            "id": 1,
+            "title": "Gold Star",
+            "rating": 3,
+            "place": "Карачаево-Черкесская Республика, Карачаевксий район, пос. Домбай, ул. Аланская, д. 18",
+            "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/332401841.jpg?k=fde87f69c4a47953496f85dde1c28ceac7490914aba6a2850f6d8f2f88ea859b&o=&hp=1"
+        },
+        {
+            "id": 2,
+            "title": "Gold Star",
+            "rating": 4,
+            "place": "Карачаево-Черкесская Республика, Карачаевксий район, пос. Домбай, ул. Аланская, д. 18",
+            "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/332401841.jpg?k=fde87f69c4a47953496f85dde1c28ceac7490914aba6a2850f6d8f2f88ea859b&o=&hp=1"
+        }
+    ],
+    "mainPageLeisureData": [
+        {
+            "id": 1,
+            "title": "Сулакский каньон",
+            "place": "Дербент",
+            "url": "https://w-sail.com/wp-content/uploads/2020/12/kanon-foto.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Сулакский каньон",
+            "place": "Дербент",
+            "url": "https://w-sail.com/wp-content/uploads/2020/12/kanon-foto.jpg"
+        }
+    ],
+    "carouselData": [
+        {
+            "id": 1,
+            "place": "Домбай",
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReT2SfboIfhFkgiM3FZ6BZc7CMktUXMCjWiA&usqp=CAU"
+        },
+        {
+            "id": 2,
+            "place": "Махачкала",
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRREF0eLkeiZ6mdWYrgj_vHhSOHC1UYHs56fQ&usqp=CAU"
+        },
+        {
+            "id": 3,
+            "place": "Архыз",
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMG0Fhg_wtEGpRz0SvuqcgCgxxv-9093FoqA&usqp=CAU"
+        },
+        {
+            "id": 4,
+            "place": "Азау",
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCFmfVX6vtYX3zmamOOBVTk7j-rFXb9r62mg&usqp=CAU"
+        },
+        {
+            "id": 5,
+            "place": "Владикавказ",
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0vZGmnuwnwp3aqqM0L2ShK-woM6QB_xlJNQ&usqp=CAU"
+        },
+        {
+            "id": 6,
+            "place": "Пятигорск",
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPunrPlLwyvDgfZflXc5r1TiNhzFOJQ7JHxw&usqp=CAU"
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+export const leisureList = {
+    filterData: {
+        specialOfferCount: 1,
+        typeExcursionCount: 2,
+        typeGuideCount: 3,
+        withChildrenCount: 4,
+        excursionTypeIndividualCount: 5,
+        excursionTypeGroupCount: 6,
+        travelModeFootCount: 7,
+        travelModeCarCount: 0,
+        travelModeBikeCount: 1,
+        travelModeBusCount: 2,
+        travelModeMotorcycleCount: 3,
+        travelModeBoatCount: 4,
+        travelModeMuseumCount: 5,
+        travelModeIndoorCount: 0,
+    },
+    data: [
+        {
+            id: 11,
+            type: 'GUIDE',
+            name: 'Имя',
+            description: 'ыаввпвап',
+            cityName: 'Новосибирск',
+            mainPhotoUrl:
+                'https://storage.g2k.dev.icerockdev.com/g2k-bucket/44b02ffe/276d/4e29/bc6d/7842af17a508',
+            withChildren: false,
+            isHide: false,
+            isSpecialOffer: true,
+            guideData: {
+                costPerHour: 500,
+                age: 15,
+            },
+        },
+        {
+            id: 52,
+            type: 'EXCURSION',
+            name: 'Ноу дети',
+            description: 'описание',
+            cityName: 'Новосибирск',
+            mainPhotoUrl:
+                'https://storage.g2k.dev.icerockdev.com/g2k-bucket/fc8a3854/747e/41ea/abd8/6c002c5fbc72',
+            withChildren: true,
+            isHide: false,
+            isSpecialOffer: true,
+            excursionData: {
+                adultPrice: 1000,
+                childrenPrice: 500,
+                duration: 2,
+            },
+        },
+    ],
+    status: 200,
+    message: '',
+    totalCount: '12',
+    timestamp: 1692217057,
+    success: true,
+};

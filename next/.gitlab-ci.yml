@@ -1,0 +1,11 @@
+variables:
+  DOCKER_DRIVER: overlay2
+  GIT_STRATEGY: fetch
+  NODEJS_BUILD_IMAGE: gitlab.icerockdev.com:4567/docker/node/node-16.15:latest
+  ARCHIVE_LINT_REPORT: .next/reports/eslint.txt
+
+stages:
+  - lint
+
+include:
+  - local: '/ci-templates/.1-lint-stage.yml'

@@ -1,0 +1,260 @@
+{
+  "bookingListData": [
+    {
+      "id": 1,
+      "name": "Gold Star",
+      "rating": 3,
+      "placesToStay": 4,
+      "city": "Домбай",
+      "ratePlans": {
+        "name": "",
+        "description": "",
+        "currency": "Rub"
+      },
+      "placementType": "HOTEL",
+      "coordinate": {
+        "lat": 43.0367,
+        "lng": 44.6678
+      },
+      "description": "Современный отель на горнолыжном курорте Домбай, гармонично \nвписанный в окружающий горный пейзаж. Номерной фонд отеля состоит из двадцати комфортабельных номеров, со всем необходимым для \nнезабываемого отдыха. Доброжелательный персонал, высокий уровень обслуживания, комфорт и семейная атмосфера в сочетании с доступными ценами на проживание является одним из преимуществ отеля «GOLD STAR».",
+      "address": "Карачаево-Черкесская Республика, Карачаевксий район, пос. Домбай, ул. Аланская, д. 18",
+      "avatar": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/332401841.jpg?k=fde87f69c4a47953496f85dde1c28ceac7490914aba6a2850f6d8f2f88ea859b&o=&hp=1",
+      "extraData": {
+        "placementExtraData": {
+          "prices": {
+            "minPrice": 1000.0,
+            "maxPrice": 2000.0,
+            "currencyCode": "RUB"
+          },
+          "numOfDay": 1,
+          "numOfAdult": 1,
+          "numOfChildren": 0
+        },
+        "roomExtraDataList": [
+          {
+            "roomId": 306757,
+            "price": 1000.0,
+            "currencyCode": "RUB",
+            "stayDates": {
+              "arrivalDateTime": "2023-06-23T14:00",
+              "departureDateTime": "2023-06-24T12:00"
+            },
+            "fullPlacementsName": "1 взрослый на основном месте."
+          },
+          {
+            "roomId": 306758,
+            "price": 2000.0,
+            "currencyCode": "RUB",
+            "stayDates": {
+              "arrivalDateTime": "2023-06-23T14:00",
+              "departureDateTime": "2023-06-24T12:00"
+            },
+            "fullPlacementsName": "1 взрослый на основном месте."
+          },
+          {
+            "roomId": 371218,
+            "price": 1200.0,
+            "currencyCode": "RUB",
+            "stayDates": {
+              "arrivalDateTime": "2023-06-23T14:00",
+              "departureDateTime": "2023-06-24T12:00"
+            },
+            "fullPlacementsName": "1 взрослый на основном месте."
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Шале Домбай",
+      "rating": 4,
+      "placesToStay": 4,
+      "ratePlans": {
+        "name": "",
+        "description": "",
+        "currency": "Rub"
+      },
+      "coordinate": {
+        "lat": 43.0267,
+        "lng": 44.6678
+      },
+      "placementType": "HOTEL",
+      "city": "Домбай",
+      "description": "В горнолыжном курорте Домбай располагается уютный отель «Шале». В нем работает чуткий и вежливый персонал, который сможет найти подход к любому гостю, даже самому взыскательному. Провести досуг постояльцы смогут в бильярдном зале, куда можно заказать напитки из бара.\nОтель предлагает всем туристам размещение в комфортабельных номерах, различных категорий. Каждый из них оснащен удобной современной мебелью, спутниковым телевидением, отдельным санузлом и почти во всех номерах есть балкон.",
+      "address": "Карачаево-Черкесия, Карачаевский р-н, п. Домбай, ул. Тебердинская, д. 7а",
+      "avatar": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/332401841.jpg?k=fde87f69c4a47953496f85dde1c28ceac7490914aba6a2850f6d8f2f88ea859b&o=&hp=1",
+      "extraData": {
+        "placementExtraData": {
+          "prices": {
+            "minPrice": 2000.0,
+            "maxPrice": 3000.0,
+            "currencyCode": "RUB"
+          },
+          "numOfDay": 1,
+          "numOfAdult": 1,
+          "numOfChildren": 0
+        },
+        "roomExtraDataList": [
+          {
+            "roomId": 306757,
+            "price": 1000.0,
+            "currencyCode": "RUB",
+            "stayDates": {
+              "arrivalDateTime": "2023-06-23T14:00",
+              "departureDateTime": "2023-06-24T12:00"
+            },
+            "fullPlacementsName": "1 взрослый на основном месте."
+          },
+          {
+            "roomId": 306758,
+            "price": 2000.0,
+            "currencyCode": "RUB",
+            "stayDates": {
+              "arrivalDateTime": "2023-06-23T14:00",
+              "departureDateTime": "2023-06-24T12:00"
+            },
+            "fullPlacementsName": "1 взрослый на основном месте."
+          },
+          {
+            "roomId": 371218,
+            "price": 1200.0,
+            "currencyCode": "RUB",
+            "stayDates": {
+              "arrivalDateTime": "2023-06-23T14:00",
+              "departureDateTime": "2023-06-24T12:00"
+            },
+            "fullPlacementsName": "1 взрослый на основном месте."
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "Gold Star 2",
+      "rating": 5,
+      "placesToStay": 4,
+      "ratePlans": {
+        "name": "",
+        "description": "",
+        "currency": "Rub"
+      },
+      "coordinate": {
+        "lat": 43.0267,
+        "lng": 44.6578
+      },
+      "placementType": "HOTEL",
+      "city": "Домбай",
+      "description": "Современный отель на горнолыжном курорте Домбай, гармонично \nвписанный в окружающий горный пейзаж. Номерной фонд отеля состоит из двадцати комфортабельных номеров, со всем необходимым для \nнезабываемого отдыха. Доброжелательный персонал, высокий уровень обслуживания, комфорт и семейная атмосфера в сочетании с доступными ценами на проживание является одним из преимуществ отеля «GOLD STAR».",
+      "address": "Карачаево-Черкесская Республика, Карачаевксий район, пос. Домбай, ул. Аланская, д. 18",
+      "avatar": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/332401841.jpg?k=fde87f69c4a47953496f85dde1c28ceac7490914aba6a2850f6d8f2f88ea859b&o=&hp=1",
+      "extraData": {
+        "placementExtraData": {
+          "prices": {
+            "minPrice": 2000.0,
+            "maxPrice": 4000.0,
+            "currencyCode": "RUB"
+          },
+          "numOfDay": 1,
+          "numOfAdult": 1,
+          "numOfChildren": 0
+        },
+        "roomExtraDataList": [
+          {
+            "roomId": 306757,
+            "price": 1000.0,
+            "currencyCode": "RUB",
+            "stayDates": {
+              "arrivalDateTime": "2023-06-23T14:00",
+              "departureDateTime": "2023-06-24T12:00"
+            },
+            "fullPlacementsName": "1 взрослый на основном месте."
+          },
+          {
+            "roomId": 306758,
+            "price": 2000.0,
+            "currencyCode": "RUB",
+            "stayDates": {
+              "arrivalDateTime": "2023-06-23T14:00",
+              "departureDateTime": "2023-06-24T12:00"
+            },
+            "fullPlacementsName": "1 взрослый на основном месте."
+          },
+          {
+            "roomId": 371218,
+            "price": 1200.0,
+            "currencyCode": "RUB",
+            "stayDates": {
+              "arrivalDateTime": "2023-06-23T14:00",
+              "departureDateTime": "2023-06-24T12:00"
+            },
+            "fullPlacementsName": "1 взрослый на основном месте."
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "name": "Gold Star 4",
+      "rating": 2,
+      "placesToStay": 4,
+      "ratePlans": {
+        "name": "",
+        "description": "",
+        "currency": "Rub"
+      },
+      "coordinate": {
+        "lat": 43.0167,
+        "lng": 44.5578
+      },
+      "placementType": "HOTEL",
+      "city": "Домбай",
+      "description": "Современный отель на горнолыжном курорте Домбай, гармонично \nвписанный в окружающий горный пейзаж. Номерной фонд отеля состоит из двадцати комфортабельных номеров, со всем необходимым для \nнезабываемого отдыха. Доброжелательный персонал, высокий уровень обслуживания, комфорт и семейная атмосфера в сочетании с доступными ценами на проживание является одним из преимуществ отеля «GOLD STAR».",
+      "address": "Карачаево-Черкесская Республика, Карачаевксий район, пос. Домбай, ул. Аланская, д. 18",
+      "avatar": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/332401841.jpg?k=fde87f69c4a47953496f85dde1c28ceac7490914aba6a2850f6d8f2f88ea859b&o=&hp=1",
+      "extraData": {
+        "placementExtraData": {
+          "prices": {
+            "minPrice": 4000.0,
+            "maxPrice": 6000.0,
+            "currencyCode": "RUB"
+          },
+          "numOfDay": 1,
+          "numOfAdult": 1,
+          "numOfChildren": 0
+        },
+        "roomExtraDataList": [
+          {
+            "roomId": 306757,
+            "price": 1000.0,
+            "currencyCode": "RUB",
+            "stayDates": {
+              "arrivalDateTime": "2023-06-23T14:00",
+              "departureDateTime": "2023-06-24T12:00"
+            },
+            "fullPlacementsName": "1 взрослый на основном месте."
+          },
+          {
+            "roomId": 306758,
+            "price": 2000.0,
+            "currencyCode": "RUB",
+            "stayDates": {
+              "arrivalDateTime": "2023-06-23T14:00",
+              "departureDateTime": "2023-06-24T12:00"
+            },
+            "fullPlacementsName": "1 взрослый на основном месте."
+          },
+          {
+            "roomId": 371218,
+            "price": 1200.0,
+            "currencyCode": "RUB",
+            "stayDates": {
+              "arrivalDateTime": "2023-06-23T14:00",
+              "departureDateTime": "2023-06-24T12:00"
+            },
+            "fullPlacementsName": "1 взрослый на основном месте."
+          }
+        ]
+      }
+    }
+  ]
+}

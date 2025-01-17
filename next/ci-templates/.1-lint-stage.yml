@@ -1,0 +1,30 @@
+# Start all lint section
+## ---------------------------------------------------------------------------------------------------------------------
+
+lint:
+  stage: lint
+  image: ${NODEJS_BUILD_IMAGE}
+  tags:
+    - docker-dind
+    - fast
+  script:
+    - yarn --silent install
+    - yarn --silent build
+    - yarn lint:ci -o ${ARCHIVE_LINT_REPORT}
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event" && $CI_MERGE_REQUEST_TARGET_BRANCH_NAME == "develop"'
+      changes:
+        - "**/*.ts"
+        - "**/*.tsx"
+  cache:
+    paths:
+      - ./node_modules/
+  artifacts:
+    when: on_failure
+    paths:
+      - ${ARCHIVE_LINT_REPORT}
+    expire_in: 1 days
+
+
+## End all lint section
+## ---------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,1288 @@
+{
+  "status": 200,
+  "message": "ok",
+  "timestamp": 1685533786,
+  "success": true,
+  "data": {
+    "id": 25,
+    "placementExternalId": "8155",
+    "partner": {
+      "id": 2,
+      "firstName": "Anton ",
+      "lastName": "Tamarov",
+      "middleName": null
+    },
+    "name": "PartnerAPI для интеграции 2",
+    "description": "Отель официально подтверждает уровень 3-х звездочного отеля своим сервисом и качеством оказываемых услуг.\nДо пляжа можно дойти всего за 1 минуту. Отель расположен в самом сердце города, в 80 метрах от центрального песчаного пляжа и набережной. К услугам гостей бесплатный Wi-Fi и бесплатная частная парковка на 12 автомобилей.\nСтойка регистрации работает круглосуточно.\nКаждое утро сервируют завтрак «шведский стол» со свежемолотым кофе.",
+    "email": "aurhotel_test@mail.ru",
+    "phone": "+7 (861) 2-750-750",
+    "images": [
+      "https://storage.g2k.dev.icerockdev.com/g2k-bucket/6d1521f4/ce76/4f7c/a434/65905058ab72",
+      "https://storage.g2k.dev.icerockdev.com/g2k-bucket/b255582c/e218/447b/a9b8/bd726fae6782",
+      "https://storage.g2k.dev.icerockdev.com/g2k-bucket/b3fc31eb/eeb9/4a21/bfc0/95d21e8d6071",
+      "https://storage.g2k.dev.icerockdev.com/g2k-bucket/673136f8/cd08/494a/9c12/74d4750af9c9",
+      "https://storage.g2k.dev.icerockdev.com/g2k-bucket/0b4512a7/f900/4633/a49e/b92665a86da6",
+      "https://storage.g2k.dev.icerockdev.com/g2k-bucket/974192b5/15ac/4aeb/9901/88022913d4b7",
+      "https://storage.g2k.dev.icerockdev.com/g2k-bucket/4473a752/6d57/47f3/b3ed/28523731a9cc",
+      "https://storage.g2k.dev.icerockdev.com/g2k-bucket/37f1c299/00e1/439d/b4b3/baed05ef89f5",
+      "https://storage.g2k.dev.icerockdev.com/g2k-bucket/a4e1979c/09ff/4652/999c/f50d4e029060",
+      "https://storage.g2k.dev.icerockdev.com/g2k-bucket/ab1a2f83/55b7/4ac7/b9a0/0a8c2afa6a63",
+      "https://storage.g2k.dev.icerockdev.com/g2k-bucket/7c09d6b5/b50c/452d/9d52/fc2d8eff3a92",
+      "https://storage.g2k.dev.icerockdev.com/g2k-bucket/9f5a1cd0/e67c/4381/a7d9/2779ccc35a5a",
+      "https://storage.g2k.dev.icerockdev.com/g2k-bucket/1a11a280/6e77/485c/9432/c54ae393bba0",
+      "https://storage.g2k.dev.icerockdev.com/g2k-bucket/310c07d1/6eb3/47b7/ba73/65d8761909a3"
+    ],
+    "city": "Йошкар-Ола",
+    "cityId": 1,
+    "address": "Республика Марий Эл, Республика Марий Эл район, г. Йошкар-Ола, ул. Петрова, д. 21",
+    "coordinate": {
+      "lat": 45.036738,
+      "lng": 38.973696
+    },
+    "stayUnitKind": null,
+    "rating": null,
+    "stars": null,
+    "ratePlans": [
+      {
+        "id": 335371,
+        "name": "Тариф с завтраком {Netto+17.646%}",
+        "description": "",
+        "currency": "RUB"
+      },
+      {
+        "id": 376270,
+        "name": "Ozon_B2B",
+        "description": "",
+        "currency": "RUB"
+      },
+      {
+        "id": 376271,
+        "name": "Длительное проживание с завтраком",
+        "description": "",
+        "currency": "RUB"
+      },
+      {
+        "id": 400428,
+        "name": "Выгодное предложение",
+        "description": "",
+        "currency": "RUB"
+      },
+      {
+        "id": 400429,
+        "name": "Выгодное предложение",
+        "description": "",
+        "currency": "RUB"
+      },
+      {
+        "id": 406199,
+        "name": "Тест_Ozon_b2b",
+        "description": "",
+        "currency": "RUB"
+      },
+      {
+        "id": 415113,
+        "name": "Выгодное предложение только с детьми НДС 20%",
+        "description": "",
+        "currency": "RUB"
+      }
+    ],
+    "specialOffer": false,
+    "rooms": {
+      "349642": [
+        {
+          "description": "Комфортный стандартный номер с красивым декором.",
+          "images": [
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/3b17082a/c3cb/4e90/bf33/5236d353a4cb"
+          ],
+          "roomName": "Стандарт",
+          "roomType": "Номер",
+          "sizeValue": 0,
+          "sizeUnit": "SquareMetre",
+          "placesToStay": 4,
+          "numberOfAdult": 2,
+          "numberOfChildren": 1,
+          "extraPlaces": 1,
+          "amenitiesWithCategory": [
+            {
+              "category": "Кровати",
+              "amenities": [
+                {
+                  "code": "double_bed",
+                  "name": "двуспальная кровать"
+                }
+              ]
+            },
+            {
+              "category": "Оборудование и электроника",
+              "amenities": [
+                {
+                  "code": "phone",
+                  "name": "телефон"
+                },
+                {
+                  "code": "work_table",
+                  "name": "рабочий стол"
+                }
+              ]
+            },
+            {
+              "category": "Ванная комната",
+              "amenities": [
+                {
+                  "code": "jacuzzi_bathroom",
+                  "name": "ванная с джакузи"
+                }
+              ]
+            },
+            {
+              "category": "Видео/аудио",
+              "amenities": [
+                {
+                  "code": "tv",
+                  "name": "телевизор"
+                }
+              ]
+            },
+            {
+              "category": "Интернет/телефония",
+              "amenities": [
+                {
+                  "code": "wifi_internet",
+                  "name": "Wi-Fi-интернет"
+                }
+              ]
+            }
+          ],
+          "placementExtraData": {
+            "roomId": 349642,
+            "price": {
+              "price": 3000,
+              "taxAmount": 0,
+              "daysCount": 1,
+              "pricePerDay": 3000,
+              "totalPrice": 3000
+            },
+            "currencyCode": "RUB",
+            "stayDates": {
+              "arrivalDateTime": "2023-09-14T14:00",
+              "departureDateTime": "2023-09-15T12:00"
+            },
+            "fullPlacementsName": "2 взрослых на основных местах.",
+            "checksum": "9B13C1D7B0F8A89D5920BEF56CB14E10D57F842E",
+            "roomType": {
+              "id": 349642,
+              "placements": [
+                {
+                  "code": "AdultBed-2",
+                  "count": 2,
+                  "kind": "Adult",
+                  "minAge": null,
+                  "maxAge": null
+                }
+              ]
+            },
+            "ratePlan": {
+              "id": 335371
+            },
+            "availableServices": [],
+            "includedServices": [
+              {
+                "id": 531111,
+                "mealPlanCode": null
+              },
+              {
+                "id": 450897,
+                "mealPlanCode": "ContinentalBreakfast"
+              }
+            ],
+            "cancellationPolicy": {
+              "freeCancellationPossible": false,
+              "freeCancellationDeadlineLocal": null,
+              "freeCancellationDeadlineUtc": null,
+              "penaltyAmount": 3000
+            }
+          },
+          "prepaymentPrice": 150
+        },
+        {
+          "description": "Комфортный стандартный номер с красивым декором.",
+          "images": [
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/3b17082a/c3cb/4e90/bf33/5236d353a4cb"
+          ],
+          "roomName": "Стандарт",
+          "roomType": "Номер",
+          "sizeValue": 0,
+          "sizeUnit": "SquareMetre",
+          "placesToStay": 4,
+          "numberOfAdult": 2,
+          "numberOfChildren": 1,
+          "extraPlaces": 1,
+          "amenitiesWithCategory": [
+            {
+              "category": "Кровати",
+              "amenities": [
+                {
+                  "code": "double_bed",
+                  "name": "двуспальная кровать"
+                }
+              ]
+            },
+            {
+              "category": "Оборудование и электроника",
+              "amenities": [
+                {
+                  "code": "phone",
+                  "name": "телефон"
+                },
+                {
+                  "code": "work_table",
+                  "name": "рабочий стол"
+                }
+              ]
+            },
+            {
+              "category": "Ванная комната",
+              "amenities": [
+                {
+                  "code": "jacuzzi_bathroom",
+                  "name": "ванная с джакузи"
+                }
+              ]
+            },
+            {
+              "category": "Видео/аудио",
+              "amenities": [
+                {
+                  "code": "tv",
+                  "name": "телевизор"
+                }
+              ]
+            },
+            {
+              "category": "Интернет/телефония",
+              "amenities": [
+                {
+                  "code": "wifi_internet",
+                  "name": "Wi-Fi-интернет"
+                }
+              ]
+            }
+          ],
+          "placementExtraData": {
+            "roomId": 349642,
+            "price": {
+              "price": 3500,
+              "taxAmount": 0,
+              "daysCount": 1,
+              "pricePerDay": 3500,
+              "totalPrice": 3500
+            },
+            "currencyCode": "RUB",
+            "stayDates": {
+              "arrivalDateTime": "2023-09-14T14:00",
+              "departureDateTime": "2023-09-15T12:00"
+            },
+            "fullPlacementsName": "2 взрослых на основных местах.",
+            "checksum": "632BCECD53B1247648A9EBB234B7B4F125873478",
+            "roomType": {
+              "id": 349642,
+              "placements": [
+                {
+                  "code": "AdultBed-2",
+                  "count": 2,
+                  "kind": "Adult",
+                  "minAge": null,
+                  "maxAge": null
+                }
+              ]
+            },
+            "ratePlan": {
+              "id": 376270
+            },
+            "availableServices": [],
+            "includedServices": [],
+            "cancellationPolicy": {
+              "freeCancellationPossible": false,
+              "freeCancellationDeadlineLocal": null,
+              "freeCancellationDeadlineUtc": null,
+              "penaltyAmount": 3500
+            }
+          },
+          "prepaymentPrice": 175
+        },
+        {
+          "description": "Комфортный стандартный номер с красивым декором.",
+          "images": [
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/3b17082a/c3cb/4e90/bf33/5236d353a4cb"
+          ],
+          "roomName": "Стандарт",
+          "roomType": "Номер",
+          "sizeValue": 0,
+          "sizeUnit": "SquareMetre",
+          "placesToStay": 4,
+          "numberOfAdult": 2,
+          "numberOfChildren": 1,
+          "extraPlaces": 1,
+          "amenitiesWithCategory": [
+            {
+              "category": "Кровати",
+              "amenities": [
+                {
+                  "code": "double_bed",
+                  "name": "двуспальная кровать"
+                }
+              ]
+            },
+            {
+              "category": "Оборудование и электроника",
+              "amenities": [
+                {
+                  "code": "phone",
+                  "name": "телефон"
+                },
+                {
+                  "code": "work_table",
+                  "name": "рабочий стол"
+                }
+              ]
+            },
+            {
+              "category": "Ванная комната",
+              "amenities": [
+                {
+                  "code": "jacuzzi_bathroom",
+                  "name": "ванная с джакузи"
+                }
+              ]
+            },
+            {
+              "category": "Видео/аудио",
+              "amenities": [
+                {
+                  "code": "tv",
+                  "name": "телевизор"
+                }
+              ]
+            },
+            {
+              "category": "Интернет/телефония",
+              "amenities": [
+                {
+                  "code": "wifi_internet",
+                  "name": "Wi-Fi-интернет"
+                }
+              ]
+            }
+          ],
+          "placementExtraData": {
+            "roomId": 349642,
+            "price": {
+              "price": 3000,
+              "taxAmount": 0,
+              "daysCount": 1,
+              "pricePerDay": 3000,
+              "totalPrice": 3000
+            },
+            "currencyCode": "RUB",
+            "stayDates": {
+              "arrivalDateTime": "2023-09-14T14:00",
+              "departureDateTime": "2023-09-15T12:00"
+            },
+            "fullPlacementsName": "2 взрослых на основных местах.",
+            "checksum": "3C6D2CCC1BDAB372F42E2FA3119D046B4EB85769",
+            "roomType": {
+              "id": 349642,
+              "placements": [
+                {
+                  "code": "AdultBed-2",
+                  "count": 2,
+                  "kind": "Adult",
+                  "minAge": null,
+                  "maxAge": null
+                }
+              ]
+            },
+            "ratePlan": {
+              "id": 400428
+            },
+            "availableServices": [],
+            "includedServices": [
+              {
+                "id": 450897,
+                "mealPlanCode": "ContinentalBreakfast"
+              }
+            ],
+            "cancellationPolicy": {
+              "freeCancellationPossible": true,
+              "freeCancellationDeadlineLocal": null,
+              "freeCancellationDeadlineUtc": null,
+              "penaltyAmount": 0
+            }
+          },
+          "prepaymentPrice": 150
+        },
+        {
+          "description": "Комфортный стандартный номер с красивым декором.",
+          "images": [
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/3b17082a/c3cb/4e90/bf33/5236d353a4cb"
+          ],
+          "roomName": "Стандарт",
+          "roomType": "Номер",
+          "sizeValue": 0,
+          "sizeUnit": "SquareMetre",
+          "placesToStay": 4,
+          "numberOfAdult": 2,
+          "numberOfChildren": 1,
+          "extraPlaces": 1,
+          "amenitiesWithCategory": [
+            {
+              "category": "Кровати",
+              "amenities": [
+                {
+                  "code": "double_bed",
+                  "name": "двуспальная кровать"
+                }
+              ]
+            },
+            {
+              "category": "Оборудование и электроника",
+              "amenities": [
+                {
+                  "code": "phone",
+                  "name": "телефон"
+                },
+                {
+                  "code": "work_table",
+                  "name": "рабочий стол"
+                }
+              ]
+            },
+            {
+              "category": "Ванная комната",
+              "amenities": [
+                {
+                  "code": "jacuzzi_bathroom",
+                  "name": "ванная с джакузи"
+                }
+              ]
+            },
+            {
+              "category": "Видео/аудио",
+              "amenities": [
+                {
+                  "code": "tv",
+                  "name": "телевизор"
+                }
+              ]
+            },
+            {
+              "category": "Интернет/телефония",
+              "amenities": [
+                {
+                  "code": "wifi_internet",
+                  "name": "Wi-Fi-интернет"
+                }
+              ]
+            }
+          ],
+          "placementExtraData": {
+            "roomId": 349642,
+            "price": {
+              "price": 3850,
+              "taxAmount": 0,
+              "daysCount": 1,
+              "pricePerDay": 3850,
+              "totalPrice": 3850
+            },
+            "currencyCode": "RUB",
+            "stayDates": {
+              "arrivalDateTime": "2023-09-14T14:00",
+              "departureDateTime": "2023-09-15T12:00"
+            },
+            "fullPlacementsName": "2 взрослых на основных местах.",
+            "checksum": "D2481DD2C18234052EBB27C8B49FBCE633127187",
+            "roomType": {
+              "id": 349642,
+              "placements": [
+                {
+                  "code": "AdultBed-2",
+                  "count": 2,
+                  "kind": "Adult",
+                  "minAge": null,
+                  "maxAge": null
+                }
+              ]
+            },
+            "ratePlan": {
+              "id": 400429
+            },
+            "availableServices": [],
+            "includedServices": [],
+            "cancellationPolicy": {
+              "freeCancellationPossible": false,
+              "freeCancellationDeadlineLocal": null,
+              "freeCancellationDeadlineUtc": null,
+              "penaltyAmount": 3850
+            }
+          },
+          "prepaymentPrice": 193
+        },
+        {
+          "description": "Комфортный стандартный номер с красивым декором.",
+          "images": [
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/3b17082a/c3cb/4e90/bf33/5236d353a4cb"
+          ],
+          "roomName": "Стандарт",
+          "roomType": "Номер",
+          "sizeValue": 0,
+          "sizeUnit": "SquareMetre",
+          "placesToStay": 4,
+          "numberOfAdult": 2,
+          "numberOfChildren": 1,
+          "extraPlaces": 1,
+          "amenitiesWithCategory": [
+            {
+              "category": "Кровати",
+              "amenities": [
+                {
+                  "code": "double_bed",
+                  "name": "двуспальная кровать"
+                }
+              ]
+            },
+            {
+              "category": "Оборудование и электроника",
+              "amenities": [
+                {
+                  "code": "phone",
+                  "name": "телефон"
+                },
+                {
+                  "code": "work_table",
+                  "name": "рабочий стол"
+                }
+              ]
+            },
+            {
+              "category": "Ванная комната",
+              "amenities": [
+                {
+                  "code": "jacuzzi_bathroom",
+                  "name": "ванная с джакузи"
+                }
+              ]
+            },
+            {
+              "category": "Видео/аудио",
+              "amenities": [
+                {
+                  "code": "tv",
+                  "name": "телевизор"
+                }
+              ]
+            },
+            {
+              "category": "Интернет/телефония",
+              "amenities": [
+                {
+                  "code": "wifi_internet",
+                  "name": "Wi-Fi-интернет"
+                }
+              ]
+            }
+          ],
+          "placementExtraData": {
+            "roomId": 349642,
+            "price": {
+              "price": 3080,
+              "taxAmount": 0,
+              "daysCount": 1,
+              "pricePerDay": 3080,
+              "totalPrice": 3080
+            },
+            "currencyCode": "RUB",
+            "stayDates": {
+              "arrivalDateTime": "2023-09-14T14:00",
+              "departureDateTime": "2023-09-15T12:00"
+            },
+            "fullPlacementsName": "2 взрослых на основных местах.",
+            "checksum": "700F4249235454E55C381CC4C6465ADDFB800FDA",
+            "roomType": {
+              "id": 349642,
+              "placements": [
+                {
+                  "code": "AdultBed-2",
+                  "count": 2,
+                  "kind": "Adult",
+                  "minAge": null,
+                  "maxAge": null
+                }
+              ]
+            },
+            "ratePlan": {
+              "id": 406199
+            },
+            "availableServices": [],
+            "includedServices": [],
+            "cancellationPolicy": {
+              "freeCancellationPossible": false,
+              "freeCancellationDeadlineLocal": null,
+              "freeCancellationDeadlineUtc": null,
+              "penaltyAmount": 3080
+            }
+          },
+          "prepaymentPrice": 154
+        }
+      ],
+      "349643": [
+        {
+          "description": "Комфортный номер площадью 60 кв м с видом на реку.",
+          "images": [
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/3340f865/eee6/4d5d/ab41/ebcbd6a1254b",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/c7e28c09/72f5/4e9a/a915/3f47c9e634d9",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/7afca1a9/f148/4370/88c5/789a7259b1b8",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/fa874eee/50e7/432f/8d79/140dfd951f57",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/6a56309c/c0dd/4563/ab31/2489e76d39e0",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/9010debb/87de/4f4f/b24d/7be9eba09748",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/c318f27e/bbf3/4648/8e91/37e09f036eae",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/43a95c49/2fa0/48b6/9b3a/2a03dc8e9766",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/d57a10b6/3c48/4e77/a4a3/58101e937743",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/2fe38db6/d06c/4ed8/9765/272e4aeb5723",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/d50067bf/e523/4624/8353/8d66b20f6b73",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/75908d4e/d3b8/4c59/ab36/20c6e4d05ce7",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/b478285f/251d/41c7/a3cd/c1ed8946312f",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/4eee9318/3b6a/436f/b3e7/b7d52b6b9c66",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/7a3162ce/e771/469d/826c/a96850d1b6f4",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/f636ad24/763b/48fa/ad5a/cdf059b65376",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/089bddda/4fd8/4e6f/930d/3909e56cc413"
+          ],
+          "roomName": "Делюкс",
+          "roomType": "Номер",
+          "sizeValue": 60,
+          "sizeUnit": "SquareMetre",
+          "placesToStay": 7,
+          "numberOfAdult": 4,
+          "numberOfChildren": 1,
+          "extraPlaces": 2,
+          "amenitiesWithCategory": [
+            {
+              "category": "Кровати",
+              "amenities": [
+                {
+                  "code": "single_bed",
+                  "name": "односпальная кровать"
+                },
+                {
+                  "code": "queen_bed",
+                  "name": "кровать «Queen size»"
+                }
+              ]
+            },
+            {
+              "category": "Оборудование и электроника",
+              "amenities": [
+                {
+                  "code": "phone",
+                  "name": "телефон"
+                }
+              ]
+            },
+            {
+              "category": "Elektronik",
+              "amenities": [
+                {
+                  "code": "refrigerator",
+                  "name": "холодильник"
+                },
+                {
+                  "code": "hairdryer",
+                  "name": "фен"
+                },
+                {
+                  "code": "electronic_locks",
+                  "name": "электронные замки"
+                },
+                {
+                  "code": "microwave",
+                  "name": "микроволновая печь"
+                },
+                {
+                  "code": "split_air_conditioning_system",
+                  "name": "сплит-система"
+                }
+              ]
+            }
+          ],
+          "placementExtraData": {
+            "roomId": 349643,
+            "price": {
+              "price": 5100,
+              "taxAmount": 0,
+              "daysCount": 1,
+              "pricePerDay": 5100,
+              "totalPrice": 5100
+            },
+            "currencyCode": "RUB",
+            "stayDates": {
+              "arrivalDateTime": "2023-09-14T14:00",
+              "departureDateTime": "2023-09-15T12:00"
+            },
+            "fullPlacementsName": "2 взрослых на основных местах.",
+            "checksum": "6357635249342839E5E4009F19F00B206903E437",
+            "roomType": {
+              "id": 349643,
+              "placements": [
+                {
+                  "code": "AdultBed-2",
+                  "count": 2,
+                  "kind": "Adult",
+                  "minAge": null,
+                  "maxAge": null
+                }
+              ]
+            },
+            "ratePlan": {
+              "id": 335371
+            },
+            "availableServices": [],
+            "includedServices": [
+              {
+                "id": 531111,
+                "mealPlanCode": null
+              },
+              {
+                "id": 450897,
+                "mealPlanCode": "ContinentalBreakfast"
+              }
+            ],
+            "cancellationPolicy": {
+              "freeCancellationPossible": false,
+              "freeCancellationDeadlineLocal": null,
+              "freeCancellationDeadlineUtc": null,
+              "penaltyAmount": 5100
+            }
+          },
+          "prepaymentPrice": 255
+        },
+        {
+          "description": "Комфортный номер площадью 60 кв м с видом на реку.",
+          "images": [
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/3340f865/eee6/4d5d/ab41/ebcbd6a1254b",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/c7e28c09/72f5/4e9a/a915/3f47c9e634d9",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/7afca1a9/f148/4370/88c5/789a7259b1b8",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/fa874eee/50e7/432f/8d79/140dfd951f57",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/6a56309c/c0dd/4563/ab31/2489e76d39e0",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/9010debb/87de/4f4f/b24d/7be9eba09748",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/c318f27e/bbf3/4648/8e91/37e09f036eae",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/43a95c49/2fa0/48b6/9b3a/2a03dc8e9766",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/d57a10b6/3c48/4e77/a4a3/58101e937743",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/2fe38db6/d06c/4ed8/9765/272e4aeb5723",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/d50067bf/e523/4624/8353/8d66b20f6b73",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/75908d4e/d3b8/4c59/ab36/20c6e4d05ce7",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/b478285f/251d/41c7/a3cd/c1ed8946312f",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/4eee9318/3b6a/436f/b3e7/b7d52b6b9c66",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/7a3162ce/e771/469d/826c/a96850d1b6f4",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/f636ad24/763b/48fa/ad5a/cdf059b65376",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/089bddda/4fd8/4e6f/930d/3909e56cc413"
+          ],
+          "roomName": "Делюкс",
+          "roomType": "Номер",
+          "sizeValue": 60,
+          "sizeUnit": "SquareMetre",
+          "placesToStay": 7,
+          "numberOfAdult": 4,
+          "numberOfChildren": 1,
+          "extraPlaces": 2,
+          "amenitiesWithCategory": [
+            {
+              "category": "Кровати",
+              "amenities": [
+                {
+                  "code": "single_bed",
+                  "name": "односпальная кровать"
+                },
+                {
+                  "code": "queen_bed",
+                  "name": "кровать «Queen size»"
+                }
+              ]
+            },
+            {
+              "category": "Оборудование и электроника",
+              "amenities": [
+                {
+                  "code": "phone",
+                  "name": "телефон"
+                }
+              ]
+            },
+            {
+              "category": "Elektronik",
+              "amenities": [
+                {
+                  "code": "refrigerator",
+                  "name": "холодильник"
+                },
+                {
+                  "code": "hairdryer",
+                  "name": "фен"
+                },
+                {
+                  "code": "electronic_locks",
+                  "name": "электронные замки"
+                },
+                {
+                  "code": "microwave",
+                  "name": "микроволновая печь"
+                },
+                {
+                  "code": "split_air_conditioning_system",
+                  "name": "сплит-система"
+                }
+              ]
+            }
+          ],
+          "placementExtraData": {
+            "roomId": 349643,
+            "price": {
+              "price": 4000,
+              "taxAmount": 0,
+              "daysCount": 1,
+              "pricePerDay": 4000,
+              "totalPrice": 4000
+            },
+            "currencyCode": "RUB",
+            "stayDates": {
+              "arrivalDateTime": "2023-09-14T14:00",
+              "departureDateTime": "2023-09-15T12:00"
+            },
+            "fullPlacementsName": "2 взрослых на основных местах.",
+            "checksum": "B750B7F3609BC0BBFC8A91DC7617C1C93E6EB36B",
+            "roomType": {
+              "id": 349643,
+              "placements": [
+                {
+                  "code": "AdultBed-2",
+                  "count": 2,
+                  "kind": "Adult",
+                  "minAge": null,
+                  "maxAge": null
+                }
+              ]
+            },
+            "ratePlan": {
+              "id": 376270
+            },
+            "availableServices": [],
+            "includedServices": [],
+            "cancellationPolicy": {
+              "freeCancellationPossible": false,
+              "freeCancellationDeadlineLocal": null,
+              "freeCancellationDeadlineUtc": null,
+              "penaltyAmount": 4000
+            }
+          },
+          "prepaymentPrice": 200
+        },
+        {
+          "description": "Комфортный номер площадью 60 кв м с видом на реку.",
+          "images": [
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/3340f865/eee6/4d5d/ab41/ebcbd6a1254b",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/c7e28c09/72f5/4e9a/a915/3f47c9e634d9",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/7afca1a9/f148/4370/88c5/789a7259b1b8",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/fa874eee/50e7/432f/8d79/140dfd951f57",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/6a56309c/c0dd/4563/ab31/2489e76d39e0",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/9010debb/87de/4f4f/b24d/7be9eba09748",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/c318f27e/bbf3/4648/8e91/37e09f036eae",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/43a95c49/2fa0/48b6/9b3a/2a03dc8e9766",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/d57a10b6/3c48/4e77/a4a3/58101e937743",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/2fe38db6/d06c/4ed8/9765/272e4aeb5723",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/d50067bf/e523/4624/8353/8d66b20f6b73",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/75908d4e/d3b8/4c59/ab36/20c6e4d05ce7",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/b478285f/251d/41c7/a3cd/c1ed8946312f",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/4eee9318/3b6a/436f/b3e7/b7d52b6b9c66",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/7a3162ce/e771/469d/826c/a96850d1b6f4",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/f636ad24/763b/48fa/ad5a/cdf059b65376",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/089bddda/4fd8/4e6f/930d/3909e56cc413"
+          ],
+          "roomName": "Делюкс",
+          "roomType": "Номер",
+          "sizeValue": 60,
+          "sizeUnit": "SquareMetre",
+          "placesToStay": 7,
+          "numberOfAdult": 4,
+          "numberOfChildren": 1,
+          "extraPlaces": 2,
+          "amenitiesWithCategory": [
+            {
+              "category": "Кровати",
+              "amenities": [
+                {
+                  "code": "single_bed",
+                  "name": "односпальная кровать"
+                },
+                {
+                  "code": "queen_bed",
+                  "name": "кровать «Queen size»"
+                }
+              ]
+            },
+            {
+              "category": "Оборудование и электроника",
+              "amenities": [
+                {
+                  "code": "phone",
+                  "name": "телефон"
+                }
+              ]
+            },
+            {
+              "category": "Elektronik",
+              "amenities": [
+                {
+                  "code": "refrigerator",
+                  "name": "холодильник"
+                },
+                {
+                  "code": "hairdryer",
+                  "name": "фен"
+                },
+                {
+                  "code": "electronic_locks",
+                  "name": "электронные замки"
+                },
+                {
+                  "code": "microwave",
+                  "name": "микроволновая печь"
+                },
+                {
+                  "code": "split_air_conditioning_system",
+                  "name": "сплит-система"
+                }
+              ]
+            }
+          ],
+          "placementExtraData": {
+            "roomId": 349643,
+            "price": {
+              "price": 5100,
+              "taxAmount": 0,
+              "daysCount": 1,
+              "pricePerDay": 5100,
+              "totalPrice": 5100
+            },
+            "currencyCode": "RUB",
+            "stayDates": {
+              "arrivalDateTime": "2023-09-14T14:00",
+              "departureDateTime": "2023-09-15T12:00"
+            },
+            "fullPlacementsName": "2 взрослых на основных местах.",
+            "checksum": "4351CCF4440A80011682EA8C82D56E61C324D1F4",
+            "roomType": {
+              "id": 349643,
+              "placements": [
+                {
+                  "code": "AdultBed-2",
+                  "count": 2,
+                  "kind": "Adult",
+                  "minAge": null,
+                  "maxAge": null
+                }
+              ]
+            },
+            "ratePlan": {
+              "id": 400428
+            },
+            "availableServices": [],
+            "includedServices": [
+              {
+                "id": 450897,
+                "mealPlanCode": "ContinentalBreakfast"
+              }
+            ],
+            "cancellationPolicy": {
+              "freeCancellationPossible": true,
+              "freeCancellationDeadlineLocal": null,
+              "freeCancellationDeadlineUtc": null,
+              "penaltyAmount": 0
+            }
+          },
+          "prepaymentPrice": 255
+        },
+        {
+          "description": "Комфортный номер площадью 60 кв м с видом на реку.",
+          "images": [
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/3340f865/eee6/4d5d/ab41/ebcbd6a1254b",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/c7e28c09/72f5/4e9a/a915/3f47c9e634d9",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/7afca1a9/f148/4370/88c5/789a7259b1b8",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/fa874eee/50e7/432f/8d79/140dfd951f57",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/6a56309c/c0dd/4563/ab31/2489e76d39e0",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/9010debb/87de/4f4f/b24d/7be9eba09748",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/c318f27e/bbf3/4648/8e91/37e09f036eae",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/43a95c49/2fa0/48b6/9b3a/2a03dc8e9766",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/d57a10b6/3c48/4e77/a4a3/58101e937743",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/2fe38db6/d06c/4ed8/9765/272e4aeb5723",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/d50067bf/e523/4624/8353/8d66b20f6b73",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/75908d4e/d3b8/4c59/ab36/20c6e4d05ce7",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/b478285f/251d/41c7/a3cd/c1ed8946312f",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/4eee9318/3b6a/436f/b3e7/b7d52b6b9c66",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/7a3162ce/e771/469d/826c/a96850d1b6f4",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/f636ad24/763b/48fa/ad5a/cdf059b65376",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/089bddda/4fd8/4e6f/930d/3909e56cc413"
+          ],
+          "roomName": "Делюкс",
+          "roomType": "Номер",
+          "sizeValue": 60,
+          "sizeUnit": "SquareMetre",
+          "placesToStay": 7,
+          "numberOfAdult": 4,
+          "numberOfChildren": 1,
+          "extraPlaces": 2,
+          "amenitiesWithCategory": [
+            {
+              "category": "Кровати",
+              "amenities": [
+                {
+                  "code": "single_bed",
+                  "name": "односпальная кровать"
+                },
+                {
+                  "code": "queen_bed",
+                  "name": "кровать «Queen size»"
+                }
+              ]
+            },
+            {
+              "category": "Оборудование и электроника",
+              "amenities": [
+                {
+                  "code": "phone",
+                  "name": "телефон"
+                }
+              ]
+            },
+            {
+              "category": "Elektronik",
+              "amenities": [
+                {
+                  "code": "refrigerator",
+                  "name": "холодильник"
+                },
+                {
+                  "code": "hairdryer",
+                  "name": "фен"
+                },
+                {
+                  "code": "electronic_locks",
+                  "name": "электронные замки"
+                },
+                {
+                  "code": "microwave",
+                  "name": "микроволновая печь"
+                },
+                {
+                  "code": "split_air_conditioning_system",
+                  "name": "сплит-система"
+                }
+              ]
+            }
+          ],
+          "placementExtraData": {
+            "roomId": 349643,
+            "price": {
+              "price": 4300,
+              "taxAmount": 0,
+              "daysCount": 1,
+              "pricePerDay": 4300,
+              "totalPrice": 4300
+            },
+            "currencyCode": "RUB",
+            "stayDates": {
+              "arrivalDateTime": "2023-09-14T14:00",
+              "departureDateTime": "2023-09-15T12:00"
+            },
+            "fullPlacementsName": "2 взрослых на основных местах.",
+            "checksum": "4B33309F40EB89F1864504923EA62D21E6E9E67F",
+            "roomType": {
+              "id": 349643,
+              "placements": [
+                {
+                  "code": "AdultBed-2",
+                  "count": 2,
+                  "kind": "Adult",
+                  "minAge": null,
+                  "maxAge": null
+                }
+              ]
+            },
+            "ratePlan": {
+              "id": 400429
+            },
+            "availableServices": [],
+            "includedServices": [],
+            "cancellationPolicy": {
+              "freeCancellationPossible": false,
+              "freeCancellationDeadlineLocal": null,
+              "freeCancellationDeadlineUtc": null,
+              "penaltyAmount": 4300
+            }
+          },
+          "prepaymentPrice": 215
+        },
+        {
+          "description": "Комфортный номер площадью 60 кв м с видом на реку.",
+          "images": [
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/3340f865/eee6/4d5d/ab41/ebcbd6a1254b",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/c7e28c09/72f5/4e9a/a915/3f47c9e634d9",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/7afca1a9/f148/4370/88c5/789a7259b1b8",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/fa874eee/50e7/432f/8d79/140dfd951f57",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/6a56309c/c0dd/4563/ab31/2489e76d39e0",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/9010debb/87de/4f4f/b24d/7be9eba09748",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/c318f27e/bbf3/4648/8e91/37e09f036eae",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/43a95c49/2fa0/48b6/9b3a/2a03dc8e9766",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/d57a10b6/3c48/4e77/a4a3/58101e937743",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/2fe38db6/d06c/4ed8/9765/272e4aeb5723",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/d50067bf/e523/4624/8353/8d66b20f6b73",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/75908d4e/d3b8/4c59/ab36/20c6e4d05ce7",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/b478285f/251d/41c7/a3cd/c1ed8946312f",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/4eee9318/3b6a/436f/b3e7/b7d52b6b9c66",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/7a3162ce/e771/469d/826c/a96850d1b6f4",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/f636ad24/763b/48fa/ad5a/cdf059b65376",
+            "https://storage.g2k.dev.icerockdev.com/g2k-bucket/089bddda/4fd8/4e6f/930d/3909e56cc413"
+          ],
+          "roomName": "Делюкс",
+          "roomType": "Номер",
+          "sizeValue": 60,
+          "sizeUnit": "SquareMetre",
+          "placesToStay": 7,
+          "numberOfAdult": 4,
+          "numberOfChildren": 1,
+          "extraPlaces": 2,
+          "amenitiesWithCategory": [
+            {
+              "category": "Кровати",
+              "amenities": [
+                {
+                  "code": "single_bed",
+                  "name": "односпальная кровать"
+                },
+                {
+                  "code": "queen_bed",
+                  "name": "кровать «Queen size»"
+                }
+              ]
+            },
+            {
+              "category": "Оборудование и электроника",
+              "amenities": [
+                {
+                  "code": "phone",
+                  "name": "телефон"
+                }
+              ]
+            },
+            {
+              "category": "Elektronik",
+              "amenities": [
+                {
+                  "code": "refrigerator",
+                  "name": "холодильник"
+                },
+                {
+                  "code": "hairdryer",
+                  "name": "фен"
+                },
+                {
+                  "code": "electronic_locks",
+                  "name": "электронные замки"
+                },
+                {
+                  "code": "microwave",
+                  "name": "микроволновая печь"
+                },
+                {
+                  "code": "split_air_conditioning_system",
+                  "name": "сплит-система"
+                }
+              ]
+            }
+          ],
+          "placementExtraData": {
+            "roomId": 349643,
+            "price": {
+              "price": 3440,
+              "taxAmount": 0,
+              "daysCount": 1,
+              "pricePerDay": 3440,
+              "totalPrice": 3440
+            },
+            "currencyCode": "RUB",
+            "stayDates": {
+              "arrivalDateTime": "2023-09-14T14:00",
+              "departureDateTime": "2023-09-15T12:00"
+            },
+            "fullPlacementsName": "2 взрослых на основных местах.",
+            "checksum": "5069E21D031FC13E2C018E31DFFD3A0ACC5C1E12",
+            "roomType": {
+              "id": 349643,
+              "placements": [
+                {
+                  "code": "AdultBed-2",
+                  "count": 2,
+                  "kind": "Adult",
+                  "minAge": null,
+                  "maxAge": null
+                }
+              ]
+            },
+            "ratePlan": {
+              "id": 406199
+            },
+            "availableServices": [],
+            "includedServices": [],
+            "cancellationPolicy": {
+              "freeCancellationPossible": false,
+              "freeCancellationDeadlineLocal": null,
+              "freeCancellationDeadlineUtc": null,
+              "penaltyAmount": 3440
+            }
+          },
+          "prepaymentPrice": 172
+        }
+      ]
+    },
+    "services": [
+      {
+        "id": "531111",
+        "name": "Прачечная",
+        "description": ""
+      },
+      {
+        "id": "450897",
+        "name": "Завтрак \"Континентальный\"",
+        "description": "Континентальный завтрак"
+      },
+      {
+        "id": "450614",
+        "name": "Завтрак",
+        "description": "Завтрак"
+      }
+    ],
+    "comment": null,
+    "isHide": false,
+    "filterDto": {
+      "cityId": null,
+      "arrivalDate": "2023-09-14",
+      "departureDate": "2023-09-15",
+      "numOfAdult": 2,
+      "childAges": [],
+      "breakfast": null,
+      "placementType": null,
+      "rating": null,
+      "specialOffer": null,
+      "hotel": null,
+      "popular": null,
+      "amenityCodes": null
+    }
+  }
+}
